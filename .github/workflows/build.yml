@@ -15,7 +15,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ccfeadbdbcabbb51280cbffcfdcbadeesix
-          SONAR_TOKEN: sqa_569d0c0cded287938e4895b20aab9a993009070d
+          SONAR_TOKEN: sqa_3a79672c7da92d5ed74bbb0217d70fa443f59f84
           SONAR_HOST_URL: 'https://sonar.server.examly.io'
       - name: Trigger API
         if: always()
